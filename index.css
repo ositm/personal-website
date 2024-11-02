@@ -775,16 +775,9 @@ footer {
 
 
     .home-img img {
+        width: 70vw;
+        margin-top: -2rem;
         display: block;
-        position: absolute;
-        bottom: 0; 
-        right: 0;
-        width: 85%;
-        /* Increased from 45% to 60% */
-        pointer-events: none;
-        padding: 1rem;
-        padding-right: 6rem;
-        align-content:center
 
     }
     .home .profession-container .profession-box {
