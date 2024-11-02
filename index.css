@@ -198,7 +198,7 @@ section {
     right: 0;
     transform: translateY(-50%);
     width: 768px;
-    height: 678px;
+    height: 500px;
     overflow: hidden;
     pointer-events: none;
 }
