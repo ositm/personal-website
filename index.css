@@ -722,6 +722,7 @@ footer {
         border-top: .1rem solid rgba(0, 0, 0, .1);
         box-shadow: 0 .5rem 1rem 0,0,0,rgba(0, 0, 0, .1);
         display: none;
+        background: var(--text-color);
     }
 
     .navbar.active {
@@ -777,7 +778,7 @@ footer {
         position: absolute;
         bottom: 0; 
         right: 0;
-        width: 85%;
+        width: 60%;
         /* Increased from 45% to 60% */
         pointer-events: none;
         padding: 1rem;
