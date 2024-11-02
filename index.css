@@ -732,8 +732,9 @@ footer {
     .navbar a {
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin: 0.1rem 0;
         color: var(--text-color);
+        background: #ffffff;
     }
 
     .navbar a:nth-child(1),
