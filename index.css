@@ -775,9 +775,19 @@ footer {
 
 
     .home-img img {
-        width: 70vw;
-        margin-top: -2rem;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        padding: 0 20px; /* Small padding for responsiveness */
+        box-sizing: border-box;
+    }
+    
+    /* Style for the image */
+    .home-img img {
+        max-width: 100%; /* Ensures image doesn't exceed container width */
+        height: auto; /* Keeps image aspect ratio */
+        display: block; /* Removes extra spacing around image */
 
     }
     .home .profession-container .profession-box {
