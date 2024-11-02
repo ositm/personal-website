@@ -719,7 +719,7 @@ footer {
         left: 0;
         width: 100%;
         padding: 1rem 3%;
-        background: #ffffff;
+        background: var(--text-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem 0,0,0,rgba(0, 0, 0, .1);
         display: none;
