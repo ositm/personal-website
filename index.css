@@ -785,6 +785,8 @@ footer {
         display: inline;
         width: 70vw;
         margin-top: -2rem;
+        justify-content: center;
+        align-items: center;
     }
     .home .profession-container .profession-box {
         position: fixed;
