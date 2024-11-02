@@ -781,16 +781,30 @@ footer {
         height: 0%;
     }
 
-
     .home-img img {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start; /* Aligns content to the top of the container */
         height: 100vh; /* Full viewport height */
-        width: 100%; /* Full viewport width */
+        width: 100%;
         box-sizing: border-box;
-        padding: 0; /* Ensure no extra padding */
+        padding: 0;
+    }
     
+    /* Restrict the area for the image within a specific div */
+    .image-wrapper {
+        width: 80%; /* Restrict the width of the div containing the image */
+        max-width: 300px; /* Optional: Set a max width for the image wrapper */
+        margin-top: 20px; /* Positioning it lower within the container */
+        text-align: center; /* Centers the image horizontally within this div */
+    }
+
+    /* Style for the specific image */
+    .img {
+        max-width: 100%; /* Ensures the image doesn't exceed its wrapper */
+        height: auto; /* Keeps the image aspect ratio */
+        display: block; /* Removes any extra space around the image */
+
     }
     .home .profession-container .profession-box {
         position: fixed;
