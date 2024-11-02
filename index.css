@@ -773,6 +773,20 @@ footer {
         height: 0%;
     }
 
+
+    .home-img img {
+        display: block;
+        position: absolute;
+        bottom: 0; 
+        right: 0;
+        width: 85%;
+        /* Increased from 45% to 60% */
+        pointer-events: none;
+        padding: 1rem;
+        padding-right: 6rem;
+        align-content:center
+
+    }
     .home .profession-container .profession-box {
         position: fixed;
         top: 60%;
