@@ -790,14 +790,7 @@ footer {
         width: 100%; /* Full viewport width */
         box-sizing: border-box;
         padding: 0; /* Ensure no extra padding */
-    }
     
-    /* Style for the image */
-    .img {
-        max-width: 90%; /* Slight padding from edges */
-        height: auto; /* Keeps image aspect ratio */
-        display: block; /* Removes any extra space around image */
-
     }
     .home .profession-container .profession-box {
         position: fixed;
